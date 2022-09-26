@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 30786b4355c80f44baf8b1912015a82f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - uiParent: {instanceID: 0}
+  - testItem: {fileID: 11400000, guid: ef0adde65a1e74447ae224801a2411f9, type: 2}
+  - testItem2: {fileID: 11400000, guid: e16a00517ce25c54f9089d32991dfb41, type: 2}
+  - newSlotImg: {fileID: 3335293624624273263, guid: 4d7a6e72d96772645a2c3c2e7a04c042, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
