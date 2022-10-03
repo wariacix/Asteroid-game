@@ -45,6 +45,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   squarePrefab: {fileID: 73734145718676787, guid: ca51ba4625b45c543970464a9537862c, type: 3}
   noiseRes: 0.151
-  asteroidBumpiness: 10
-  asteroidSize: 16
-  mat: {fileID: 2100000, guid: ecce6bf0498376345b49977b81ac48c8, type: 2}
+  asteroidBumpiness: 15
+  asteroidSize: 100.5

@@ -28,10 +28,26 @@ public class Item : ScriptableObject
     }
 
     [SerializeField]
+    private string id;
+    public string Id
+    {
+        get { return id; }
+        set { id = value; }
+    }
+
+    [SerializeField]
     private string description = "null";
     public string Description
     {
         get { return description; }
         set { description = value; }
+    }
+
+    public Item(Item item)
+    {
+        sprite = item.Sprite;
+        type = item.Type;
+        description = item.Description;
+        id = item.Id;
     }
 }

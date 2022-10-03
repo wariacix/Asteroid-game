@@ -86,7 +86,7 @@ public class Inventory : MonoBehaviour
 
         for (int x = 0; x < itemList.Count; x++)
         {
-            if (itemList[x].Item == item)
+            if (itemList[x].Item.Id == item.Id)
             {
                 itemList[x].Amount += 1;
                 numberImg[x].SetText(itemList[x].Amount.ToString());

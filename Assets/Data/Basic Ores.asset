@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4418e25221a989b42b03ccd1bd3a6ee3, type: 3}
+  m_Name: Basic Ores
+  m_EditorClassIdentifier: 
+  baseStone: {fileID: 11400000, guid: ef0adde65a1e74447ae224801a2411f9, type: 2}
+  stoneMaterial: {fileID: 2100000, guid: ecce6bf0498376345b49977b81ac48c8, type: 2}
+  ores:
+  - {fileID: 11400000, guid: 9cad9a8a385050e4dafe0600ecf850e4, type: 2}
+  - {fileID: 11400000, guid: e16a00517ce25c54f9089d32991dfb41, type: 2}
+  - {fileID: 11400000, guid: 58aae0a354d5e4249be2d08c741d3ea5, type: 2}
+  - {fileID: 11400000, guid: a881dc6def82fbb42a3e76b44cc7b142, type: 2}
+  oreMaterial:
+  - {fileID: 2100000, guid: 642d4198584f7984ba1133eb90193de5, type: 2}
+  - {fileID: 2100000, guid: e0b953e82d46bb54b86098bd5db41a50, type: 2}
+  - {fileID: 2100000, guid: 1690808b1a9698e4b8a0d4f06c0db96e, type: 2}
+  - {fileID: 2100000, guid: fdc1a895cd7bc0e479068a125116419a, type: 2}
+  percentage:
+  - 1.5
+  - 0.25
+  - 1
+  - 40

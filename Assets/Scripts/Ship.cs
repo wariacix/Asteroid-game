@@ -23,7 +23,7 @@ public class Ship : MonoBehaviour
     [SerializeField]
     private float energyGain = 0.2f;
 
-    private float cargoLimit = 100.0f;
+    private float cargoLimit = 256.0f;
     private float cargo = 0.0f;
 
     private Inventory shipInventory;

@@ -122,4 +122,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d068d487e640134b9810919e82711de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  addedLimit: 70
+  addedLimit: 256

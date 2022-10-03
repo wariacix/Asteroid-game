@@ -14,12 +14,12 @@ public class Drill : MonoBehaviour
         ship = gameObject.GetComponentInParent<Ship>();
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         DigAsteroid(collision);
     }
 
-    public void DigAsteroid(Collision2D collision)
+    public void DigAsteroid(Collider2D collision)
     {
         if (collision.gameObject.layer == LayerMask.NameToLayer("Asteroid"))
         {
@@ -27,7 +27,9 @@ public class Drill : MonoBehaviour
             {
                 ship.setCargo(ship.getCargo() + 1);
 
-                ship.ShipInventory.AddItem(item, 1);
+                SquareItemSlot newItem = collision.gameObject.GetComponent<SquareItemSlot>();
+
+                ship.ShipInventory.AddItem(newItem.Item, Random.Range(1, 4));
 
                 Destroy(collision.gameObject);
             }
