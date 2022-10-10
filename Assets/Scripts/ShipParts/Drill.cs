@@ -5,8 +5,6 @@ using UnityEngine;
 public class Drill : MonoBehaviour
 {
     private Ship ship;
-    [SerializeField]
-    private Item item;
 
     // Start is called before the first frame update
     void Start()
