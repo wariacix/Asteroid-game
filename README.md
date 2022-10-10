@@ -5,4 +5,4 @@ Well, here it is!
 # Currently WIP
 
 
-![image](https://user-images.githubusercontent.com/70266908/192331352-2b79ada3-c5c6-4d27-a2bc-43bebc9de8a7.png)
+![image](https://user-images.githubusercontent.com/70266908/194911774-b21ec278-eca9-474a-9e33-e02662000e9b.png)
